@@ -1,0 +1,25 @@
+@import url("variables.css");
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    justify-content: center;
+    max-width: var(--largest-width);
+    box-sizing: border-box !important;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+.content {
+    max-width: var(--medium-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
